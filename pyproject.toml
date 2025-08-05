@@ -1,0 +1,14 @@
+[project]
+name = "voiceover2"
+version = "0.1.0"
+description = "Simple offline text-to-speech using beeps"
+authors = [{name = "VoiceOver Dev", email = "dev@example.com"}]
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.scripts]
+voiceover2 = "voiceover2.__main__:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
